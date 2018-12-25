@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AutomationSuite]">
+  <test thread-count="5" name="RegressionTest(failed)">
+    <classes>
+      <class name="script.InvalidLogin">
+        <methods>
+          <include name="testInvalidLogin"/>
+          <include name="openApp"/>
+          <include name="print"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.InvalidLogin -->
+      <class name="script.ValidLogin">
+        <methods>
+          <include name="testValidLogin"/>
+          <include name="openApp"/>
+          <include name="print"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.ValidLogin -->
+      <class name="script.TC1">
+        <methods>
+          <include name="testA"/>
+          <include name="openApp"/>
+          <include name="print"/>
+          <include name="closeApp"/>
+          <include name="closeApp"/>
+        </methods>
+      </class> <!-- script.TC1 -->
+      <class name="script.TC2">
+        <methods>
+          <include name="print"/>
+          <include name="testB"/>
+          <include name="m1"/>
+        </methods>
+      </class> <!-- script.TC2 -->
+    </classes>
+  </test> <!-- RegressionTest(failed) -->
+</suite> <!-- Failed suite [AutomationSuite] -->
